@@ -1,0 +1,5 @@
+n = int(input())
+arr = list(map(int, input().split()))
+z = sum(arr)
+k = (n * (n + 1) // 2)
+print(k - z)
